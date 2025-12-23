@@ -1,0 +1,23 @@
+name: Warp to Home
+version: 1.24.65
+main: de.minecraft.warp.WarpHome
+api-version: 1.20
+author: r0coon
+description: A fancy home point plugin with teleportation and GUI. Only one command /home
+
+commands:
+  home:
+    description: Opens the home collection
+    usage: /home
+    permission: fancyhomes.home
+
+permissions:
+  fancyhomes.*:
+    description: Grants all permissions
+    default: true
+    children:
+      fancyhomes.home: true
+  fancyhomes.home:
+    description: Allows home management and teleportation
+    default: true
+

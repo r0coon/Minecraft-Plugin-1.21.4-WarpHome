@@ -1,0 +1,25 @@
+# WarpHome Configuration
+
+# Teleportation delay in seconds
+teleport-delay: 5
+
+# Maximum number of homes per player (0 = unlimited)
+max-homes: 0
+
+# Should teleportation be cancelled when the player moves?
+cancel-on-move: true
+
+# Messages
+messages:
+  home-set: "&d✦ &7Warp Point '&b&l{name}&7' has been set! &a✓"
+  home-deleted: "&c☠ &7Home '&b&l{name}&7' has been deleted!"
+  home-not-found: "&c✗ &7Home '&e{name}&7' does not exist!"
+  teleporting: "&d⚡ &7Teleporting in &b&l{seconds}s&7..."
+  teleport-success: "&e★ &7Successfully teleported to '&b&l{name}&7'! &e★"
+  teleport-cancelled: "&c⚠ &7Teleportation cancelled! &8(&7Movement detected&8)"
+  no-homes: "&e⌂ &7You haven't set any homes yet! &8/home"
+  max-homes-reached: "&c✗ &7Maximum homes reached! &8(&c{max}&8)"
+  homes-list: "&d&l━━━ &b&lYour Homes &d&l━━━"
+  homes-entry: "&8▸ &b{name} &8(&7{world}&8)"
+  no-permission: "&c✗ &7Insufficient permissions!"
+
