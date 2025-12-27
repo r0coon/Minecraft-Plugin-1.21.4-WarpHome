@@ -1,7 +1,5 @@
 # 🏠 WarpHome - Minecraft Plugin
 
-Ein modernes Warp Point Teleportation Plugin mit GUI und visuellen Effekten!
-
 ## ✨ Features
 
 - **Warp Points erstellen**: Erstelle Warp Points über die GUI
@@ -132,3 +130,4 @@ Dieses Plugin ist für den privaten und kommerziellen Gebrauch frei verfügbar.
 ## 🙏 Credits
 
 Entwickelt für Minecraft Server mit Spigot/Paper API.
+(ja ich war zu faul und habe den readme per ChatGPT erstellt)
