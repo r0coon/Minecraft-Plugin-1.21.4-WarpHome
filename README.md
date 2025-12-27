@@ -45,26 +45,10 @@ Alle Nachrichten können ebenfalls in der `config.yml` angepasst werden!
 
 ## 🚀 Installation
 
-1. Lade die `WarpHome.jar` herunter
+1. Lade die `WarpToHome-1.21.4.jarr` herunter
 2. Platziere sie in den `plugins` Ordner deines Servers
 3. Starte den Server neu
 4. Fertig! 🎉
-
-## 📦 Build
-
-Um das Plugin selbst zu bauen:
-
-```bash
-cd HomePlugin
-./build.sh
-```
-
-Die fertige JAR-Datei findest du in: `target/WarpHome-1.0.0.jar`
-
-Um das Plugin zu installieren:
-```bash
-cp target/WarpHome-1.0.0.jar ../WarpHome.jar
-```
 
 Dann starte den Server neu oder nutze: `/reload`
 
@@ -98,7 +82,6 @@ HomePlugin/
 │           ├── plugin.yml                          # Plugin-Metadaten
 │           └── config.yml                          # Konfiguration
 ├── pom.xml                                         # Maven-Konfiguration
-├── build.sh                                        # Build-Script
 └── README.md                                       # Diese Datei
 ```
 
